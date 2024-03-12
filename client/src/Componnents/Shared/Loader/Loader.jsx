@@ -2,8 +2,8 @@
 
 const Loader = () => {
     return (
-        <div>
-            loader
+        <div className="grid place-items-center min-h-screen">
+            <span className="loading loading-spinner loading-lg"></span>
         </div>
     );
 };

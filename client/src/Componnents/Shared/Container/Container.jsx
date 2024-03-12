@@ -1,9 +1,10 @@
+/* eslint-disable react/prop-types */
 
 
-const Container = () => {
+const Container = ({children}) => {
     return (
-        <div>
-            container
+        <div className="w-11/12 mx-auto">
+            {children}
         </div>
     );
 };
